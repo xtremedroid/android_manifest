@@ -39,9 +39,11 @@
 
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="toxyc" />
   <project path="packages/apps/Hazard" name="android_packages_apps_Hazard" groups="pdk-fs" remote="toxyc" />
+  <project path="packages/apps/ToxycOTA" name="android_packages_apps_ToxycOTA" groups="pdk-fs" remote="toxyc" />
 
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="toxyc" />
 
   <project path="vendor/toxyc" name="android_vendor_toxyc" remote="toxyc" />
+  <project path="vendor/toxyc/devices-ota" name="DevicesOTA" remote="toxyc" />
 
 </manifest>
