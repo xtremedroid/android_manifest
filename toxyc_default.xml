@@ -23,10 +23,10 @@
   </project>
 
   <project path="bionic" name="android_bionic" groups="pdk" remote="toxyc" />
-
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="toxyc" revision="oreo-gsi" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="toxyc" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="toxyc" />
-  <project path="device/toxyc/sepolicy" name="android_device_toxyc_sepolicy" remote="toxyc" />
+  <project path="device/toxyc/sepolicy" name="android_device_toxyc_sepolicy" remote="toxyc" revision="oreo-gsi" />
 
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="toxyc" />
   <project path="frameworks/base" name="android_frameworks_base" remote="toxyc" />
@@ -36,7 +36,7 @@
   <project path="hardware/toxyc/interfaces" name="android_hardware_toxyc_interfaces" remote="toxyc" >
       <copyfile dest="hardware/toxyc/Android.bp" src="Android.bp"/>
   </project>
-
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="toxyc" revision="oreo-gsi" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="toxyc" />
   <project path="packages/apps/Hazard" name="android_packages_apps_Hazard" groups="pdk-fs" remote="toxyc" />
   <project path="packages/apps/ToxycOTA" name="android_packages_apps_ToxycOTA" groups="pdk-fs" remote="toxyc" />
